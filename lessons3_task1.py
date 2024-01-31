@@ -1,3 +1,5 @@
 sentence = input()
-sentence.split('-')
-print(sentence)
+sentence1 = sentence.split(" ")
+sentence2 = "-".join(sentence1)
+print(sentence2)
+print(sentence.replace(" ", "-"))
